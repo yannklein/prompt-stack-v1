@@ -8,7 +8,7 @@ def generate_html(text)
 
   client = OpenAI::Client.new
   puts '-' * 50
-  puts "Sending request to OpenAI API to generate an htmlm file..."
+  puts "Sending request to OpenAI API to generate an html file..."
   puts '-' * 50
   response = client.chat(
     parameters: {
