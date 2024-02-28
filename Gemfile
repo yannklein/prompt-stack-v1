@@ -10,7 +10,10 @@ gem "sinatra-activerecord"
 gem "sinatra-contrib"
 gem "thin"
 gem "faker"
+gem "ruby-openai"
 # gem 'notion', '~> 1.1', '>= 1.1.4'
 group :production do
   gem 'pg'
 end
+
+gem 'dotenv', groups: [:development, :test]
