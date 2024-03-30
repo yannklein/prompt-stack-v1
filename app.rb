@@ -10,6 +10,7 @@ require_relative "generate_html_proxy"
 
 # http://localhost:4567/ (root)
 get "/" do
-  @frontend = generate_html(params[:something] || "flying pokemons")
+  html_code = generate_html(params[:something] || "flying pokemons") 
+  @frontend = html_code['HTML'] || html_code['error']
   erb :index
 end
