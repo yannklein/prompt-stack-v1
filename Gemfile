@@ -11,7 +11,8 @@ gem "sinatra-contrib"
 gem "thin"
 gem "faker"
 gem "ruby-openai"
-# gem 'notion', '~> 1.1', '>= 1.1.4'
+gem "net-http"
+
 group :production do
   gem 'pg'
 end

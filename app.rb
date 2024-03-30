@@ -4,7 +4,7 @@ require "sinatra/activerecord"
 require "pry-byebug"
 require "better_errors"
 require 'dotenv/load' if development?
-require_relative "generate_html"
+require_relative "generate_html_proxy"
 
 # app.rb = Router + Controller
 
