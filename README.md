@@ -73,6 +73,7 @@ The project uses [a homemade proxy website](https://github.com/yannklein/openai-
 
 ### Demo
 
+Test the website [here](http://prompt-stack-v1-0310041ff890.herokuapp.com/) 👉 ⚠️ It is on a very cheap hosting service so it needs to load for a while and might give you an error at first load. Just refresh the page if it happens.
 
 https://github.com/yannklein/prompt-stack-v1/assets/26819547/bbb9bccf-dae2-4555-a4e1-7585034db3d8
 
